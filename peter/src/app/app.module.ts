@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { TennisMatchCounterComponent } from './tennis-match-counter/tennis-match-counter.component';
+import { SwordKilledWomanMouezaBlenderComponent } from './sword-killed-woman-moueza-blender/sword-killed-woman-moueza-blender.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    TennisMatchCounterComponent
+    TennisMatchCounterComponent,
+    SwordKilledWomanMouezaBlenderComponent
   ],
   imports: [
     BrowserModule,
