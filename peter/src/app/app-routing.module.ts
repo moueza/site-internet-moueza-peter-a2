@@ -10,7 +10,7 @@ const routes: Routes = [
  { path: 'menu', component: MenuComponent },
  { path: 'arbitrage', component: TennisMatchCounterComponent },
 
-{ path: 'sword-woman', component: SwordKilledWomanMouezaBlenderComponent }
+{ path: 'sword-woman-moueza', component: SwordKilledWomanMouezaBlenderComponent }
 ];
 
 @NgModule({
