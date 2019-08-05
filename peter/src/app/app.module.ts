@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { TennisMatchCounterComponent } from './tennis-match-counter/tennis-match-counter.component';
 import { SwordKilledWomanMouezaBlenderComponent } from './sword-killed-woman-moueza-blender/sword-killed-woman-moueza-blender.component';
+import { ChronometreMouezaComponent } from './chronometre-moueza/chronometre-moueza.component';
+import { AlarmMouezaComponent } from './alarm-moueza/alarm-moueza.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     TennisMatchCounterComponent,
-    SwordKilledWomanMouezaBlenderComponent
+    SwordKilledWomanMouezaBlenderComponent,
+    ChronometreMouezaComponent,
+    AlarmMouezaComponent
   ],
   imports: [
     BrowserModule,
