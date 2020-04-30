@@ -9,6 +9,7 @@ import { SwordKilledWomanMouezaBlenderComponent } from './sword-killed-woman-mou
 import { ChronometreMouezaComponent } from './chronometre-moueza/chronometre-moueza.component';
 import { AlarmMouezaComponent } from './alarm-moueza/alarm-moueza.component';
 import { MusiqueMusicMouezaComponent } from './musique-music-moueza/musique-music-moueza.component';
+import { BlenderV28ShortcutsMouezaComponent } from './blender-v28-shortcuts-moueza/blender-v28-shortcuts-moueza.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MusiqueMusicMouezaComponent } from './musique-music-moueza/musique-musi
     SwordKilledWomanMouezaBlenderComponent,
     ChronometreMouezaComponent,
     AlarmMouezaComponent,
-    MusiqueMusicMouezaComponent
+    MusiqueMusicMouezaComponent,
+    BlenderV28ShortcutsMouezaComponent
   ],
   imports: [
     BrowserModule,
