@@ -6,11 +6,16 @@ import { TennisMatchCounterComponent } from './tennis-match-counter/tennis-match
 
 import { SwordKilledWomanMouezaBlenderComponent } from './sword-killed-woman-moueza-blender/sword-killed-woman-moueza-blender.component';
 
+
+import { MaisonDeLaMerComponent } from './maison-de-la-mer/maison-de-la-mer.component';
+
 const routes: Routes = [
  { path: 'menu', component: MenuComponent },
  { path: 'arbitrage', component: TennisMatchCounterComponent },
 
 { path: 'sword-woman-moueza', component: SwordKilledWomanMouezaBlenderComponent }
+
+{ path: 'maison-de-la-mer', component: MaisonDeLaMerComponent }
 ];
 
 @NgModule({
