@@ -10,6 +10,7 @@ import { ChronometreMouezaComponent } from './chronometre-moueza/chronometre-mou
 import { AlarmMouezaComponent } from './alarm-moueza/alarm-moueza.component';
 import { MusiqueMusicMouezaComponent } from './musique-music-moueza/musique-music-moueza.component';
 import { BlenderV28ShortcutsMouezaComponent } from './blender-v28-shortcuts-moueza/blender-v28-shortcuts-moueza.component';
+import { MaisonDeLaMerComponent } from './maison-de-la-mer/maison-de-la-mer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BlenderV28ShortcutsMouezaComponent } from './blender-v28-shortcuts-moue
     ChronometreMouezaComponent,
     AlarmMouezaComponent,
     MusiqueMusicMouezaComponent,
-    BlenderV28ShortcutsMouezaComponent
+    BlenderV28ShortcutsMouezaComponent,
+    MaisonDeLaMerComponent
   ],
   imports: [
     BrowserModule,
